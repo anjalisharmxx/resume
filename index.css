@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #ff7613;
+    --text-color: #727171;
+}
+html{
+    font-size: 15px;
+}
+body{
+    font-family: inter,sans-serif;
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.profile_profileimg img{
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+    padding-top: 7px;
+}
+.container{
+    padding: 6rem;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    background-color: #070707;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+@media only screen and (max-width:768px){
+    .container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        gap: 7rem;
+       }
+}
+.profile_profileimg {
+    max-width: 500px;
+}
+
+.profile{
+    margin-bottom: 2rem;
+    grid-column: 1/-1;
+}
+.profilecontainer {
+    display: flex;
+    gap: 2rem;
+}
+.first{
+    color: white;
+    font-weight: 200;
+    font-size: clamp(2rem,8vw,4rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem;
+}
+.second{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: clamp(2.5rem,15vw,7rem);
+    text-transform: uppercase;
+    display: block;
+}
+.profile_title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.Description {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.downloadbtn{
+    display: block;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.downloadbtn:hover{
+    color: var(--primary-color);
+}
+@media only screen and (max-width:768px) {
+    .profilecontainer {
+        flex-direction: column;
+    }
+}
+.skill_list{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+.title{
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.group1{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.skill_list description{
+    margin-left: 1rem;
+}
+.download{
+    display: block;
+    text-decoration: underline;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.download:hover{
+    color: var(--primary-color);
+}
+.exptitle{
+    margin-top: 0.8rem;
+}
+.expyr{
+    margin-top: 0.4rem;
+}
+.expsubtitle{
+    margin-top: 0.8rem;
+}
+.Descriptiontitle{
+    margin-top: 0.8rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.pro{
+    margin-top: 1rem;
+}
+.prolist{
+    margin-top: 0.8rem;
+}
+.list{
+    margin-top: 0.2rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+.cur{
+    margin-top: 1.4rem;
+}
+.contactinfo{
+    margin-top: 0.2rem;
+    /* margin-left: 0.6rem; */
+    line-height: 2;
+}
+.social{
+    /* margin-top: 1rem; */
+}
+.socialitems{
+    /* margin-top: rem; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.6rem;
+    line-height: 1;
+}
+.contactlt{
+    margin-top: -1.8rem;
+}
+.beta{
+    font-size: xx-small;
+}
+.ref ul{
+    line-height: 1rem;
+    margin-left: 2rem;
+    /* margin-top: 0.8rem; */
+}
+.mc p{
+    margin-left: 0.8rem;
+}
+.mc a{
+    margin-left: 0.8rem;
+}
+.anjali h3{
+    margin-top: -3rem;
+}
